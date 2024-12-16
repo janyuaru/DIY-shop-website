@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.product {
+    background: #fff;
+    /* border-bottom-left-radius: 100% 100px;
+    border-bottom-right-radius: 100% 100px; */
+    /* border: 1px soild red; */
+    z-index: 99;
+    position: relative;
+}
+
+.product-detail-container{
+    display: flex;
+    justify-content: center;
+    height: 480px;
+    align-items: flex-start;
+    gap: 120px;
+    padding-top: 36px;
+    padding-right: 36px;
+}
+
+.image-container {
+    width: 360px;
+    margin: 0;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* จัดเนื้อหาให้อยู่ทางซ้าย */
+    justify-content: flex-start; /* จัดเนื้อหาให้อยู่ด้านบน */
+    margin-top: 0; /* ลบระยะห่างจากด้านบน */
+    padding-top: 10px;
+}
+
+.info-container h2 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.info-container p {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.detail {
+    padding: 40px 0; 
+    text-align: center; 
+}
+
+.detail-main {
+    display: flex;
+    padding: 12px; 
+    background-color: #fff7cb; 
+    text-align: left; 
+    margin-top: 12px;
+    border: 1px solid #fff7cb;
+}
+
+.detail-main-shop {
+    display: flex;
+    padding: 12px; 
+    background-color: #ffd7f4; 
+    text-align: left; 
+    margin-top: 12px;
+    border: 1px solid #fa9ae0
+}
+
+.detail-border{
+    border: 1px solid #fff7cb;
+    margin-top: 3px;
+}
+
+.detail-main h2 {
+    font-size: 18px;
+    text-align: left;
+    color: black;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.detail-info p {
+    color: black;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 36px;
+    margin-bottom: 36px; 
+    margin-left: 40px;
+}
+
+.detail-head{
+    background-color: #186ecf; 
+}
+
+/* ทำให้พื้นหลังของข้อมูลร้านค้าขยายเต็มที่ */
+.shop-detail-container {
+    background-color: #ffd7f4; /* สีพื้นหลังเท่ากับรายละเอียดสินค้า */
+    max-width: 1110px; /* ขนาดความกว้างเท่ากับ .container */
+    margin: 0 auto; /* จัดกลาง */
+    padding: 12px;
+    width: 100%;
+  }
+  
+  .shop-detail-content {
+    display: flex;
+    align-items: center; /* จัดกลางให้ทุกอย่าง */
+    justify-content: space-between; /* ปุ่มไปทางขวา */
+  }
+  
+  .shop-logo {
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+  
+  .shop-info {
+    flex-grow: 1;
+  }
+
+  .shop-info h5 {
+    font-weight: bold;
+  }
+  
+  .shop-buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+  }
+
+  
+  

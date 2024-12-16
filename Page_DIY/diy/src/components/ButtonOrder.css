@@ -1,0 +1,21 @@
+.buy-now-btn {
+    background-color: transparent;
+    color: black;
+    padding: 9px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    border: 2px solid #2b70e0 ;
+    border-radius: 7px;
+  }
+
+.buy-now-btn:hover{
+  background-color: #2b70e0;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.3s ease;
+}
+  
+
+ 
+
+ 

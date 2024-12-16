@@ -1,0 +1,26 @@
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.detail-main {
+    display: flex;
+    padding: 12px; 
+    background-color: #f9f9f9; 
+    text-align: left; 
+}
+
+.detail-main h2 {
+    font-size: 22px;
+    text-align: left;
+    color: black;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.detail {
+    padding: 40px 0; 
+    text-align: center; 
+    /* margin-top: 20px; */
+}

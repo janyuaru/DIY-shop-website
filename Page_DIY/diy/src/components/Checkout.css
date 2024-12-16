@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .container {
+    max-width: 1110px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0px;
+  }
+  
+  .container-main {
+    padding: 6px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .order-summary {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+  }
+
+  .address-container {
+    width: 100%;
+    max-width: 1110px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .address-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .address-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .address-info {
+    flex: 1;
+  }
+  
+  .location-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .address-header h5,
+  .order-summary h5 {
+    color: #e74c3c;
+    font-size: 18px;
+  }
+  
+  .address-content p,
+  .item-detail p,
+  .shipping-option p,
+  .total-price p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin: 4px 0;
+  }
+  
+  .address-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  
+  .change-btn {
+    background-color: transparent;
+    color: #3498db;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .item-detail {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .shipping-option {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .total-price {
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .row-spacing {
+    margin-bottom: 16px; /* ปรับระยะห่างระหว่างบรรทัดตามต้องการ */
+  }
+  .text-right {
+    text-align: right;
+  }
+  .text-color {
+    color: #6e6e6e;
+    font-size: 16px;
+  }
+
+  .product-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-image {
+    width: 50px; /* ปรับขนาดรูปภาพตามต้องการ */
+    height: auto;
+    margin-right: 10px; /* เว้นระยะห่างระหว่างรูปภาพกับข้อความ */
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid #b3b0b0; /* สีเทา */
+    margin: 20px 0; /* ระยะห่างจากส่วนบนและล่าง */
+    width: 100%; /* ความยาวของเส้น */
+  }
+
+  .button-container {
+    text-align: right;
+  }
+  .order-checkout-btn {
+    background-color: #fcbb4b;
+    /* border:#fcbb4b;
+    border-radius: 50px; */
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 0px;
+    border: none;
+  }
+
+  .payment-options {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.payment-options label {
+    font-weight: bold;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+.option-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.payment-option {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.payment-option:hover {
+    background-color: #fcbb4b;
+    color: black;
+}
+
+.payment-option.active {
+    border: 1px solid #ff5722;
+    color: #ff5722;
+    background-color: #fff5f3;
+}
+
+.payment-option.disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: not-allowed;
+    border: 1px solid #ddd;
+}
+

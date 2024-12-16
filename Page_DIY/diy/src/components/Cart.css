@@ -1,0 +1,184 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.table-con {
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.table-shop {
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 7px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.total-product {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  font-size: 18px;
+  margin-left: 10%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th,td {
+  padding: 12px;
+  text-align: left;
+}
+
+/* กำหนดความกว้างของคอลัมน์แต่ละคอลัมน์ */
+.list {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+.col-select {
+  width: 4%;
+  padding-left: 20px;
+}
+.col-box {
+  width: 2%;
+  padding-left: 20px;
+}
+
+.col-goods {
+  width: 5%;
+  padding-left: 20px;
+}
+
+.col-product {
+  width: 45%;
+  padding-left: 20px;
+  font-size: 17px;
+}
+
+.col-shop {
+  width: 45%;
+  padding-left: 15px;
+  font-size: 19px;
+}
+
+.col-price, .col-total, .col-quantity, .col-action {
+  width: 12.5%;
+  font-size: 17px;
+}
+
+.product-item {
+  width: 10%;
+}
+
+.product {
+  width: 25%;
+  color: #333;
+  font-size: 18px;
+}
+
+.price {
+  width: 15%;
+  color: #333;
+  padding-left: 11%;
+  font-size: 18px;
+}
+
+.amount {
+  width: 15%;
+  padding-left: 5%;
+}
+
+.total {
+  width: 15%;
+  padding-left: 5%;
+  color: #333;
+  font-size: 18px;
+}
+
+.action {
+  width: 12.5%;
+  padding-right: 30px;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-delete:hover {
+  background-color: #c0392b;
+}
+
+#select-all {
+  margin-right: 10px; /* เพิ่มช่องว่างหลัง checkbox */
+}
+
+.total-product label {
+  font-size: 16px; /* ปรับขนาดตัวอักษร */
+  color: #333; /* สีข้อความ */
+}
+
+#total-items {
+  color: #333;
+}
+
+.total-price {
+  font-size: 18px; /* ขนาดตัวอักษรของราคาสินค้ารวม */
+  color: #333;
+  margin-left: 50%; /* ดันให้ชิดขวาของบรรทัด */
+  padding-right: 20px; /* เพิ่ม padding ขวา */
+}
+
+.colprice {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 2%;
+  width: 10%;
+}
+
+.price-highlight {
+  color: #e74c3c; /* เปลี่ยนสีตามที่ต้องการ */
+  font-weight: bold; /* เน้นตัวอักษรให้นูนขึ้น */
+}
+
+.total-product input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.total-product .total-price {
+  margin-left: auto;
+}
+
+th {
+  background-color: #faf8ec;
+  color: #333;
+}
+
+td {
+  color: #555;
+}

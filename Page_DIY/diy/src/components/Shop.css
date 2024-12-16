@@ -1,0 +1,105 @@
+.table-con {
+    margin: 10px auto;
+    border: 1px solid #fa9ae0;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 1100px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffd7f4;
+
+}
+
+.bord-row {
+    height: 150px;
+}
+
+.logo-circle {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.logo-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 12%;
+
+}
+
+.shop-info {
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.shop-name {
+    font-weight: bold;
+    white-space: nowrap;
+    /* Prevents text from wrapping to the next line */
+    overflow: hidden;
+    /* Hide overflow if the text is too long */
+    text-overflow: ellipsis;
+    /* Show ellipsis (...) when the text is too long */
+    max-width: 100%;
+    /* Ensure the name stays within its container */
+}
+
+.dtshop-th {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 100%; 
+    text-align: center;
+
+  }
+
+  .dtshop-th ul {
+    padding-right: 10%;
+  }
+
+  .list-group-item {
+    display: flex;
+    align-items: center;
+    border: none;
+    color: black;
+    background-color: inherit;
+    font-weight: bold;
+  }
+  
+  .list-group-item i {
+    margin-right: 10px; /* ระยะห่างระหว่างไอคอนกับข้อความ */
+  }
+  
+  .details-section {
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #fa9ae0; /* กรอบสีน้ำเงินตามที่ต้องการ */
+    max-width: 1100px;
+    width: 70%;
+    height: 150px; /* กำหนดความสูงตามต้องการ */
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 18px;
+}

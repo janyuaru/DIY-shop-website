@@ -1,0 +1,67 @@
+.container {
+    max-width: 1280px;
+    width: 100%;
+}
+
+.table-shop {
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 1280px;
+    width: 100%;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f8f8;
+    color: #333;
+    white-space: nowrap; /* Ensures elements stay on one line */
+    background-color: #fff7cb;
+}
+
+td {
+    color: #555;
+}
+
+.sort-label {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds space between text and dropdown */
+}
+
+.form-select {
+    padding: 6px 10px;
+    border: 1px solid #4a90e2;
+    color: #2b70e0;
+    width: 150px; /* Adjusted width */
+}
+
+.col-shop {
+    text-align: right;
+}
+
+.bot-col {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: solid 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bot-col:hover {
+    background-color: #bcbcbc;
+    border: solid 1px;
+}
